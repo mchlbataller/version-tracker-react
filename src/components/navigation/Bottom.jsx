@@ -9,7 +9,7 @@ import React, {useEffect, useState} from 'react'
 
 const useStyles = makeStyles({
   root: {
-    position: "fixed",
+    position: "sticky",
     bottom: 0,
     width: "100vw",
   },
