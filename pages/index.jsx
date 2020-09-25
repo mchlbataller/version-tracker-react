@@ -1,9 +1,9 @@
-import {CssBaseline} from '@material-ui/core'
+import {CssBaseline, Typography} from '@material-ui/core'
 export default function Home() {
     return (
         <>
             <CssBaseline />
-            <h1>Testing</h1>
+            <Typography variant="h3">Testing</Typography>
         </>
     )
 }
