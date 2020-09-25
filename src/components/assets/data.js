@@ -8,13 +8,20 @@ const data = [
   },
   {
     date: "September 22, 2020",
-    changes: ["Added routing for backend", "Added backend API for students"],
+    changes: [
+      "Added routing for backend", 
+      "Added backend CREATE API for students",
+      "Added backend DELETE API for students",
+      "Added backend MODIFY API for students",
+    ],
   },
   {
     date: "September 23, 2020",
     changes: [
       "FEATURE: Added GraphQL IDE for backend development",
-      "Added backend API for quizzes",
+      "Added backend CREATE API for quizzes",
+      "Added backend DELETE API for quizzes",
+      "Added backend MODIFY API for quizzes",
       "Added documentation for GraphQL IDE Setup",
       "Added scripts for Windows developers for GraphQL IDE setup",
     ],
