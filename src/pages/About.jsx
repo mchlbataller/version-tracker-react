@@ -27,10 +27,10 @@ export const About = (props) => {
       <div className={styles.container}>
         <img src={notfound} alt="404" width="75%" className={styles.image} />
         <Typography variant="h5" className={styles.title}>
-          Almost there!
+          Feature not available.
         </Typography>
         <Typography variant="subtitle1" className={styles.subtitle}>
-          We are currently working on this page. Please try again later.
+          Feature is not yet available. Page will not be maintained.
         </Typography>
         <Button color="primary" variant="contained" className={styles.button}>
           Go back

@@ -19,6 +19,12 @@ const data = [
       "Added scripts for Windows developers for GraphQL IDE setup",
     ],
   },
+  {
+    date: 'September 25, 2020',
+    changes: [
+      "Created progress tracker."
+    ]
+  }
 ];
 
 export default data

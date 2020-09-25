@@ -1,4 +1,4 @@
-import { AccountCircle, Home } from "@material-ui/icons";
+import { AccountCircle, Code, Home } from "@material-ui/icons";
 import {
   BottomNavigation as BottomNav,
   BottomNavigationAction,
@@ -37,11 +37,11 @@ export default function BottomNavigation(props) {
     >
         <BottomNavigationAction label="Home" icon={<Home />} value="/" component={Link} to="/" />
         <BottomNavigationAction
-          label="About"
-          icon={<AccountCircle />}
-          value="/about"
+          label="Dashboard"
+          icon={<Code />}
+          value="/dashboard"
           component={Link}
-          to="/about"
+          to="/dashboard"
         />
         <BottomNavigationAction
           label="About"

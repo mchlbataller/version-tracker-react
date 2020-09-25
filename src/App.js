@@ -23,6 +23,7 @@ export default function App() {
                     <Route path="/" exact>
                         <Home />
                     </Route>
+                    <Route component={About} />
                 </Switch>
                 <BottomNavigation />
             </Router>
