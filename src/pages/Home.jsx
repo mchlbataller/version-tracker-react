@@ -1,13 +1,11 @@
 import { Typography as Text, makeStyles } from "@material-ui/core";
 
+import Layout from 'components/layout'
 import React from "react";
 import data from "components/assets/data";
 import github from "components/assets/github.png";
 
 const useStyles = makeStyles({
-  root: {
-    padding: "2rem 1.5rem",
-  },
   subtitle: {
     display: "flex",
     marginTop: "0.2rem",
@@ -21,20 +19,22 @@ const useStyles = makeStyles({
     margin: "1rem 0rem",
   },
   changes: { margin: 0, fontFamily: "Roboto Mono" },
-});
+})
 
 export default function Home(props) {
   const styles = useStyles();
 
   return (
-    <div className={styles.root}>
-      <Text variant="h4">Progress Tracker</Text>
+    <Layout>
+      <Text variant="h5">Pantasan Web App</Text>
+
       <div className={styles.subtitle}>
         <img src={github} alt="g" width="20px" />
         <Text variant="subtitle2">The-Pantasan-Project/pantasan-web-app</Text>
       </div>
+
       <section id="changelogs">
-        {data.map((e) => (
+        {data.reverse().map((e) => (
           <>
             <div className={styles.changesContainer}>
               <Text variant="h6">{e.date}</Text>
@@ -45,8 +45,8 @@ export default function Home(props) {
             <hr />
           </>
         ))}
-        <p></p>
+        <p className="text-center">You've reached the end of the page.</p>
       </section>
-    </div>
+    </Layout>
   );
 }

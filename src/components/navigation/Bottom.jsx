@@ -33,6 +33,7 @@ export default function BottomNavigation(props) {
       }}
       value={value}
       className={styles.root}
+      elevation="1"
     >
         <BottomNavigationAction label="Home" icon={<Home />} value="/" component={Link} to="/" />
         <BottomNavigationAction
