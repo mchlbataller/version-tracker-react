@@ -1,13 +1,16 @@
-# Version Tracker (React)
+<h1 align="center"> Version Tracker </h1>
+<p align="center"> This is a version tracker for websites. </p>
 
-## Quick Setup
-Run `yarn dev`, then open [localhost:3000](http://localhost:3000).
-
-## Technologies
+## Technologies used
 - Material UI
 - Next.js SSR
 - React.js
 - Webpack
+
+<br>
+
+## Quick Setup
+Run `yarn dev`, then open [localhost:3000](http://localhost:3000).
 
 <br>
 
